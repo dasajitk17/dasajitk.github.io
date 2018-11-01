@@ -1,0 +1,24 @@
+#oval-shape {
+    width: 800px;
+    height: 200px;
+    background: #8ee4dd;
+    -moz-border-radius: 600px / 160px;
+    -webkit-border-radius: 600px / 160px;
+    border-radius: 600px / 160px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 13.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
