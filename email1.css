@@ -1,0 +1,386 @@
+@font-face {
+
+   font-family: 'dosis-semibold' ;
+   src: url('dosis-semibold.ttf') format('truetype');
+
+}
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #ffffff;
+  margin: 11px 16px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 15px;
+  border-radius: 4px;
+}
+
+.imgclassicon{
+	content:url("np1.png");
+}
+
+.site-logo {
+    margin: 11px 16px;
+    max-width: 110px!important;
+    float: left;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  max-width: 110px!important;
+}
+
+.header img.logo {
+  margin-top:5px;
+  font-size: 25px;
+  font-weight: bold;
+  max-width: 110px!important;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+    float: right;
+    font-size: 20px;
+	margin: 47px 28px 47px 0;
+    text-transform: uppercase;
+
+}
+
+.header .header-right img {
+    width: 32px;
+    margin: 4px;
+}
+
+.h5style1{
+color:white;padding: 100px;font-family: dosis-semibold;font-size: 30px;font-weight:300;line-height:150%; margin-top: 5px; 
+text-align: left;
+}
+
+.myfbimage {
+    padding-top: 10px;
+    width: 50%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.myimage {
+    padding-top: 10px;
+    width: 20%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.tdrow{
+ text-align:center;
+ padding-top: 3px;
+}
+.t2tdrow{
+	align="center"
+ }
+ .site-main.nofull {
+    width: 90%;
+    margin: 32px auto;
+}
+.brectangle {
+    height: 250px;
+    width: 100%;
+    background-color: #4668AF;
+}
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    float: right;
+    margin-right: 15px;
+    margin-top: 100px;
+}
+.rectangle {
+  height: 250px;
+  width: 100%;
+  background-color: #8ee4dd;
+}
+
+.srectangle {
+    height: 350px;
+    width: 100%;
+    background-color: #8ee4dd;
+}
+.rectangle1 {
+  height: 150px;
+  width: 100%;
+  background-color: #D9534F;
+}
+.oval {
+border-radius: 25px;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #D9534F;
+    margin-top: 5px;
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+.h1text{
+text-align:center;
+margin-top: 0%;
+font-size:50px;
+    padding-top: 0px;
+}
+.h1centeredtext{
+margin-left: 50%;
+font-size:25px;
+}
+
+.h1rectangle{
+color:#202020;font-family:dosis-semibold;font-size:50px;font-weight:300;line-height:150%;margin:0;text-align:center;padding-top: 45px;
+	}
+	.div_border{
+	border-bottom: 1px solid black;
+	padding: 5px;
+	}
+	.imagediv1{
+	width:100%;
+	}
+	.imagediv2{
+	width:100%;
+	}
+	.plainlink{
+	font-family:dosis-semibold;
+		text-decoration: none;
+		color:#ffffff;
+
+	}
+	
+#block_container
+{
+    padding=0;
+    text-align:center;
+}
+#bloc1
+{   padding=0;
+    display: inline;
+    width: 25%;
+    
+}
+#bloc2
+{
+    padding=0;
+    display: inline-block;
+    width: 49%;
+}
+
+.i0{
+padding=0;
+width:25%;
+}
+
+.pi{
+font-size:35px;font-weight: 700;padding:0px;font-family:dosis-semibold;margin:0;
+}
+.pi2{
+font-size:15px;font-weight: 700;padding:0px;font-family:dosis-semibold;margin:0;
+}
+
+.ButtonFood{
+    color: white;
+    font-size: 50px;
+    font-family: dosis-semibold;
+    margin-bottom: 50px;
+    background-color: #DB524C;
+}	
+.hidemobile{
+
+}
+.dineinbedsub{
+font-family: dosis-semibold;
+    font-size: 14px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+.howitworkssub{
+font-family: dosis-semibold;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+.ai0{
+padding=0;
+width:50%;
+}
+.divtext{
+font-family: dosis-semibold;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 75px;
+    margin-top: 25px;
+}
+.divunsubscribe{
+color:black;
+}
+	
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+	position: absolute;
+    top: 5px;
+    right: 4px;
+	margin: 4px;
+  }
+  #oval-shape {
+    width: 320px;
+    height: 75px;
+    margin-left: 17%;
+    background: #8ee4dd;
+    -moz-border-radius: 600px / 160px;
+    -webkit-border-radius: 600px / 160px;
+    border-radius: 600px / 160px;
+ }
+ .tdrow{
+	 padding-top: 3px;
+ }
+ .t2tdrow{
+ }
+ .site-main.nofull {
+    margin-top: 0;
+    width: 100%;
+ }
+	.rectangle {
+	  height: 150px;
+	  width: 100%;
+	  background-color: #8ee4dd;
+	 }
+        .rectangle1 {
+	  height: 50px;
+	  width: 100%;
+	  background-color: #D9534F;
+	 }
+	.oval {
+border-radius: 25px;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #D9534F;
+    margin-top: 5px;
+    padding-top: 5%;
+    padding-bottom: 20%;
+	}	
+	.h1text{
+		text-align:center;
+		font-size:15px;
+		margin:1px;
+		padding-top: 5px;
+	}
+	.h1centeredtext{
+		margin-left: 50%;
+		font-size:25px;
+}
+.srectangle {
+  height: 140px;
+  width: 100%;
+  background-color: #8ee4dd;
+}
+.h1rectangle{
+	color:#202020;font-family:dosis-semibold;font-size:30px;font-weight:300;line-height:150%;margin:0;text-align:center;padding-top: 25px;
+	}
+	.imagediv2{
+	width:100%;
+	    padding-left: 0%;
+	padding-right: 0%;
+	}
+.i0{
+width:100%;
+}
+#bloc1, #bloc2
+{
+    display: inline-block;
+    width: 49%;
+    
+}
+.ai0{
+width:100%;
+}
+.pi{
+font-size: 25px;font-weight: 700;padding:0px;font-family:dosis-semibold;margin:0;
+}
+.pi2{
+font-size:15px;font-weight: 700;padding:0px;font-family:dosis-semibold;margin:0;
+}
+.ButtonFood{
+    color: white;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: dosis-semibold;
+    background-color: #DB524C;
+}
+.hidemobile{
+display:none;
+}
+.imgclassicon{
+	content:url("np1_s.png");
+}
+.dineinbedsub{
+font-family: dosis-semibold;
+    font-size: 10px;
+margin-bottom: 0;
+margin-top: 0;
+}
+.howitworkssub{
+font-family: dosis-semibold;
+    font-size: 10px;
+margin-bottom: 10px;
+margin-top: 0;
+}
+
+.divtext{
+font-family: dosis-semibold;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.h5style1{
+color:white;padding: 25px;font-family: dosis-semibold;font-size: 30px;font-weight:300;line-height:150%; margin-top: 5px; 
+text-align: left;
+}
+	
+}
