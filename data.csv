@@ -1,11 +1,6 @@
-name,value,parent
-Root,1,
-Node1,2,Root
-Node2,2,Root
-Node3,2,Root
-Node4,3,Node1
-Node5,3,Node1
-Node6,3,Node2
-Node7,3,Node2
-Node8,3,Node3
-Node9,3,Node3
+name,parent,value
+La,null,
+L1,La,10
+L2,L1,20
+L3,L2,30
+L4,L2,40
