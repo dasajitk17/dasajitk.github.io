@@ -1,4 +1,4 @@
-name,level,parent
+name,value,parent
 Root,1,
 Node1,2,Root
 Node2,2,Root
