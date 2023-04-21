@@ -11,10 +11,10 @@
       d3.csv("data.csv", function(data) {
         // Create a hierarchical layout from the data
         var root = d3.stratify()
-          .id(function(d) { return d.name; })
-          .parentId(function(d) { return d.parent; })
+          .id(function(d) { console.log(d.name);return d.name; })
+          .parentId(function(d) { console.log(d.parent);return d.parent; })
           (data);
-        root.sum(function(d) { return d.value });
+        root.sum(function(d) { console.log(d.value);return d.value });
 
         // Set up the tree layout and append it to the SVG container
         var treeLayout = d3.tree()
